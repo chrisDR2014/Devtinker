@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="{{url_for('static', filename="css/style.css")}}">
+		<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" />
 		<title>Dominican Republic | Chris</title>
 	</head>
 
@@ -143,42 +143,61 @@
 		</section>
 		<section class="places">
 			<div class="section__container places__container">
-				<h2 class="section__header">Popular places</h2>
+				<h2 class="section__header">Popular places to visit</h2>
 				<div class="places__grid">
 					<div class="places__card">
-						<img src="#" alt="#" />
-						<h4>Place name 1</h4>
-						<p>Short place description</p>
+						<a href="">
+							<img
+								src="{{url_for('static', filename='assets/sosua')}}"
+								alt="Sosúa
+							Beach"
+							/>
+							<h4>Sosúa</h4>
+							<p>Vibrant beach town, rich in culture and coastal beauty.</p>
+						</a>
 					</div>
 					<div class="places__card">
-						<img src="#" alt="#" />
-						<h4>Place name 2</h4>
-						<p>Short place description</p>
+						<a href="">
+							<img
+								src="{{url_for('static', filename='assets/puertoplata')}}"
+								alt="Puerto Plata Center"
+							/>
+							<h4>Puerto Plata</h4>
+							<p>Coastal gem with historic charm and stunning landscapes</p>
+						</a>
 					</div>
 					<div class="places__card">
-						<img src="#" alt="#" />
-						<h4>Place name 3</h4>
-						<p>Short place description</p>
+						<a href="">
+							<img
+								src="{{url_for('static', filename='assets/santiago')}}"
+								alt="Santiago
+							Monument"
+							/>
+							<h4>Santiago De Los Caballeros</h4>
+							<p>Dynamic city nestled in scenic mountainous terrain.</p>
+						</a>
 					</div>
 					<div class="places__card">
-						<img src="#" alt="#" />
-						<h4>Place name 4</h4>
-						<p>Short place description</p>
+						<a href="">
+							<img
+								src="{{url_for('static', filename='assets/santodomingo')}}"
+								alt="Santo Domingo Center"
+							/>
+							<h4>Santo Domingo</h4>
+							<p>
+								Bustling capital brimming with history, culture, and lively energy.
+							</p>
+						</a>
 					</div>
 					<div class="places__card">
-						<img src="#" alt="#" />
-						<h4>Place name 5</h4>
-						<p>Short place description</p>
-					</div>
-					<div class="places__card">
-						<img src="#" alt="#" />
-						<h4>Place name 6</h4>
-						<p>Short place description</p>
-					</div>
-					<div class="places__card">
-						<img src="#" alt="#" />
-						<h4>Place name 7</h4>
-						<p>Short place description</p>
+						<a href="">
+							<img
+								src="{{url_for('static', filename='assets/puntacana')}}"
+								alt="Punta Cana Hotel"
+							/>
+							<h4>Punta Cana</h4>
+							<p>Tropical paradise renowned for its pristine beaches and resorts.</p>
+						</a>
 					</div>
 				</div>
 			</div>
