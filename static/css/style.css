@@ -80,7 +80,7 @@ nav {
 	position: relative;
 	min-height: 500px;
 	background-image: linear-gradient(to right, rgba(44, 56, 85, 0.9), rgba(100, 125, 128, 0.1)),
-		url('images/beach.jpg');
+		url('../assets/beach.jpg');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -215,19 +215,18 @@ nav {
 	height: 100%; /* Ensures all images have same height */
 }
 
+.places__card h4 {
+	color: #333333;
+	font-weight: bold;
+}
+
 .places__card p {
 	text-align: center;
 	color: #333333;
 	opacity: 0;
-	font-weight: bold;
 	transition: opacity 0.3s;
 	width: 80%;
 	margin: 1rem auto 0;
-}
-
-.places__card h4 {
-	color: #333333;
-	font-weight: bold;
 }
 
 .places__card:hover {
